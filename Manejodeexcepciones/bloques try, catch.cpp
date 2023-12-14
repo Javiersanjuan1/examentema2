@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 
-// Enumeración para códigos de error personalizados
 enum ErrorCode {
     NO_ERROR,
     LIMITE_MATERIAS_ALCANZADO,
