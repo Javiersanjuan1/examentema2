@@ -12,7 +12,6 @@ int main() {
 
     Estudiante estudiante1;
 
-    // Asignar valores a los campos
     estudiante1.nombre = "Juan";
     estudiante1.edad = 20;
     estudiante1.promedio = 8.5;
