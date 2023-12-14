@@ -20,3 +20,6 @@ En conclusión para el proyecto de modernización del sistema de gestión acadé
 
 
 Para los siguientes proyectos de CGEA considero que mantengan una comunicación constante con los usuarios para comprender y adaptarse a los requisitos cambiantes, que diseñen una arquitectura modular y escalable para facilitar la incorporación de nuevas funcionalidades y manejar el crecimiento de datos que desarrollen pruebas automatizadas sólidas para garantizar la funcionalidad y estabilidad del sistema, que prioricen la seguridad de los datos con medidas robustas de cifrado y protección de la privacidad, que documenten exhaustivamente el código y la arquitectura del sistema para facilitar el mantenimiento, y proporcionen capacitación adecuada al personal y usuarios para maximizar la eficiencia del sistema.
+
+
+https://github.com/Javiersanjuan1/examentema2.git
