@@ -9,7 +9,7 @@ struct Estudiante {
 };
 
 int main() {
-    // Crear una instancia de la estructura Estudiante
+
     Estudiante estudiante1;
 
     // Asignar valores a los campos
