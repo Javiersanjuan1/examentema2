@@ -15,7 +15,6 @@ struct Result {
     Result(ErrorCode err) : error(err) {}
 };
 
-// Resto del código...
 
 int main() {
     Estudiante estudiante1;
