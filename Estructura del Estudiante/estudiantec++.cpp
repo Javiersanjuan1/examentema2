@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-// Defi
+
 struct Estudiante {
     std::string nombre;
     int edad;
