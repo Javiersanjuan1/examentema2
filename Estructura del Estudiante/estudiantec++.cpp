@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-// Definición de la estructura Estudian
+// Definición de la estructura Estudia
 struct Estudiante {
     std::string nombre;
     int edad;
