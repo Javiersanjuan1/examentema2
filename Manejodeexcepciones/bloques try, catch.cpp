@@ -28,7 +28,6 @@ int main() {
             throw std::runtime_error("Error: Límite de materias alcanzado.");
         }
 
-        // Registrar asistencias y manejar errores
         Result resultadoAsistencia1 = estudiante1.registrarAsistencia("2023-01-01", "Matemáticas", "Asistió");
         Result resultadoAsistencia2 = estudiante1.registrarAsistencia("2023-01-02", "Ciencias", "Falta");
 
