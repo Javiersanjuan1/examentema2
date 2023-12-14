@@ -35,9 +35,7 @@ int main() {
             throw std::runtime_error("Error: Límite de asistencias alcanzado.");
         }
 
-        // Resto del código...
 
-        // Mostrar la información del estudiante
         estudiante1.mostrarInformacion();
     } catch (const std::exception& e) {
         std::cerr << "Excepción atrapada: " << e.what() << std::endl;
