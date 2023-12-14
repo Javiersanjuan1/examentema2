@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-// Definición
+// Definic
 struct Estudiante {
     std::string nombre;
     int edad;
