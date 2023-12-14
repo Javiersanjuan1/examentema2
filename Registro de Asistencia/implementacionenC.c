@@ -1,19 +1,16 @@
 #include <stdio.h>
 #include <string.h>
 
-// Definición de la estructura Asistencia
 struct Asistencia {
     char fecha[11];  // formato YYYY-MM-DD
     char materia[50];
     char estado[20];
 };
 
-// Definición de la estructura Materia
 struct Materia {
     char nombre[50];
 };
 
-// Definición de la estructura Estudiante
 struct Estudiante {
     char nombre[50];
     int edad;
@@ -24,7 +21,6 @@ struct Estudiante {
     int numAsistencias;
 };
 
-// Función para agregar una materia al estudiante
 void agregarMateria(struct Estudiante* estudiante, const char* nombreMateria) {
     if (estudiante->numMaterias < 10) {
         strcpy(estudiante->materias[estudiante->numMaterias].nombre, nombreMateria);
@@ -34,7 +30,6 @@ void agregarMateria(struct Estudiante* estudiante, const char* nombreMateria) {
     }
 }
 
-// Función para registrar la asistencia
 void registrarAsistencia(struct Estudiante* estudiante, const char* fecha, const char* materia, const char* estado) {
     if (estudiante->numAsistencias < 50) {
         strcpy(estudiante->asistencias[estudiante->numAsistencias].fecha, fecha);
@@ -46,7 +41,6 @@ void registrarAsistencia(struct Estudiante* estudiante, const char* fecha, const
     }
 }
 
-// Función para mostrar la información del estudiante, incluyendo asistencias
 void mostrarInformacion(const struct Estudiante* estudiante) {
     printf("Nombre: %s\nEdad: %d\nPromedio: %.2f\n\nMaterias:\n", estudiante->nombre, estudiante->edad, estudiante->promedio);
     for (int i = 0; i < estudiante->numMaterias; ++i) {
@@ -63,7 +57,6 @@ void mostrarInformacion(const struct Estudiante* estudiante) {
 }
 
 int main() {
-    // Crear una instancia de la estructura Estudiante
     struct Estudiante estudiante1;
     strcpy(estudiante1.nombre, "Juan");
     estudiante1.edad = 20;
@@ -71,16 +64,13 @@ int main() {
     estudiante1.numMaterias = 0;
     estudiante1.numAsistencias = 0;
 
-    // Agregar materias
     agregarMateria(&estudiante1, "Matemáticas");
     agregarMateria(&estudiante1, "Ciencias");
     agregarMateria(&estudiante1, "Historia");
 
-    // Registrar asistencias
     registrarAsistencia(&estudiante1, "2023-01-01", "Matemáticas", "Asistió");
     registrarAsistencia(&estudiante1, "2023-01-02", "Ciencias", "Falta");
 
-    // Mostrar la información del estudiante, incluyendo asistencias
     mostrarInformacion(&estudiante1);
 
     return 0;
