@@ -23,7 +23,6 @@ int main() {
     estudiante1.promedio = 8.5;
 
     try {
-        // Agregar materias y manejar errores
         Result resultadoMateria = estudiante1.agregarMateria("Matemáticas");
         if (resultadoMateria.error == LIMITE_MATERIAS_ALCANZADO) {
             throw std::runtime_error("Error: Límite de materias alcanzado.");
