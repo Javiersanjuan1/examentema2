@@ -7,7 +7,6 @@ enum ErrorCode {
     LIMITE_ASISTENCIAS_ALCANZADO
 };
 
-// Estructura para representar un resultado que puede contener un código de error
 struct Result {
     ErrorCode error;
 
