@@ -10,7 +10,6 @@ enum ErrorCode {
 struct Result {
     ErrorCode error;
 
-    // Constructor para el caso de éxito (sin error)
     Result() : error(NO_ERROR) {}
 
     // Constructor para el caso de error
