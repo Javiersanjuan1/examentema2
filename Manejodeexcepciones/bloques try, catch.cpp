@@ -12,7 +12,6 @@ struct Result {
 
     Result() : error(NO_ERROR) {}
 
-    // Constructor para el caso de error
     Result(ErrorCode err) : error(err) {}
 };
 
